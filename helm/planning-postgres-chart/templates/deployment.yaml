@@ -14,7 +14,7 @@ spec:
         app: postgres
     spec:
       containers:
-        - image: pdngayan1/planning-postgres:v1
+        - image: asia-south1-docker.pkg.dev/ncinga-reseller-incubator/docker-image/planning-tool-postgres:latest
           name: postgres
           env:
             - name: POSTGRES_PASSWORD
